@@ -10,6 +10,7 @@ import Client from "./Components/Client";
 import ds from "./assets/ds.jpg";
 import Location from "./Components/Location";
 import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
 // import map from "./assets/map.png"
 
 function App() {
@@ -76,6 +77,9 @@ function App() {
       </div>
       <div>
         <ContactUs />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

@@ -16,10 +16,9 @@ function ContactUs() {
     };
   return (
     <>
-    <div className="flex mx-auto bg-gray-300   ">
-    <div className="h-70 w-10/12">
-        <div >
-            <h2 className="font-extrabold text-4xl">Transform Your Space With Our Cleaning Magic </h2>
+    <div className="flex justify-center mx-auto bg-gray-300  lead-10 ">
+        <div className="h-70 w-10/12">
+            <h2 className="font-extrabold text-[60px]">Transform Your Space With Our Cleaning Magic </h2>
             <p>Sample text. Click to select the Text Element.</p>
             <form onSubmit={handleSubmit}>
                 <input 
@@ -35,7 +34,6 @@ function ContactUs() {
             </button>
             </form>
         </div>
-      </div>
       </div>
     </>
   );
